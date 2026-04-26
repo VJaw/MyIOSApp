@@ -2,15 +2,25 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+# macOS
+.DS_Store
+**/.DS_Store
+
 ## User settings
-# Xcode
-*.xcworkspace/xcuserdata/
-*.xcodeproj/xcuserdata/
-*.xcodeproj/project.xcworkspace/xcuserdata/
+# Xcode user data (personal settings, never commit these)
+xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+
+# Xcode derived data
 DerivedData/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+# CocoaPods (if used later)
+Pods/
+
 ## Obj-C/Swift specific
 *.hmap
 
