@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EDB76A5B2FA156B4007896AA /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDB76A5A2FA156B4007896AA /* ExportOptions.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EDF65B142F9ECEBB0010A066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDB76A592FA1540B007896AA /* MyIOSApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyIOSApp.xctestplan; sourceTree = "<group>"; };
+		EDB76A5A2FA156B4007896AA /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		EDF65B062F9ECEBA0010A066 /* MyIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF65B132F9ECEBB0010A066 /* MyIOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF65B1D2F9ECEBB0010A066 /* MyIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,8 @@
 		EDF65AFD2F9ECEBA0010A066 = {
 			isa = PBXGroup;
 			children = (
+				EDB76A592FA1540B007896AA /* MyIOSApp.xctestplan */,
+				EDB76A5A2FA156B4007896AA /* ExportOptions.plist */,
 				EDF65B082F9ECEBA0010A066 /* MyIOSApp */,
 				EDF65B162F9ECEBB0010A066 /* MyIOSAppTests */,
 				EDF65B202F9ECEBB0010A066 /* MyIOSAppUITests */,
@@ -212,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB76A5B2FA156B4007896AA /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
